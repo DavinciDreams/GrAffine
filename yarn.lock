@@ -943,7 +943,7 @@ __metadata:
     "@node-rs/argon2": "npm:^2.0.2"
     "@node-rs/crc32": "npm:^1.10.6"
     "@opentelemetry/api": "npm:^1.9.0"
-    "@opentelemetry/core": "npm:^2.2.0"
+    "@opentelemetry/core": "npm:^2.8.0"
     "@opentelemetry/exporter-prometheus": "npm:^0.215.0"
     "@opentelemetry/exporter-zipkin": "npm:^2.6.0"
     "@opentelemetry/host-metrics": "npm:^0.38.3"
@@ -9766,7 +9766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/core@npm:2.7.0, @opentelemetry/core@npm:^2.0.0, @opentelemetry/core@npm:^2.2.0, @opentelemetry/core@npm:^2.5.1":
+"@opentelemetry/core@npm:2.7.0, @opentelemetry/core@npm:^2.0.0, @opentelemetry/core@npm:^2.5.1":
   version: 2.7.0
   resolution: "@opentelemetry/core@npm:2.7.0"
   dependencies:
@@ -9774,6 +9774,17 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ">=1.0.0 <1.10.0"
   checksum: 10/7345d04fc56ffba5f534d5ca589e3cd0a62f2234e8add42c2d5fd7d0139c5b37605cf780decd19d62902e42e56c33abd6233a6c9c7b33fd1e54f202d6c26e4ec
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/core@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "@opentelemetry/core@npm:2.8.0"
+  dependencies:
+    "@opentelemetry/semantic-conventions": "npm:^1.29.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.0.0 <1.10.0"
+  checksum: 10/47f1a492d02c1f468390ce9ee45d55bbc940e96ec26d5356abd9903f6c332adddd23ed1a6a6c8871b54efc1536f235b7d5304c83e5dfeb459ae5ab980dc67c70
   languageName: node
   linkType: hard
 
