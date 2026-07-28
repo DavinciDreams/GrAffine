@@ -52,7 +52,7 @@
     "@toeverything/infra": "workspace:*",
     "@types/set-cookie-parser": "^2.4.10",
     "@vitejs/plugin-react": "^5.2.0",
-    "app-builder-lib": "^26.8.1",
+    "app-builder-lib": "^26.15.0",
     "builder-util-runtime": "^9.5.1",
     "cross-env": "^10.1.0",
     "debug": "^4.4.0",
